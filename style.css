@@ -25,3 +25,109 @@
     /* Chrome 26+, Opera 23+, Firefox 39+ */
       url("fonts/montaga-v8-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+body {
+  font-family: Montaga, serif;
+}
+h1 {
+  font-size: 36px;
+}
+h3 {
+  text-align: center;
+  font-family: "Vesper Libre", serif;
+}
+.name {
+  font-family: "Ovo", serif;
+}
+.container {
+  width: 800px;
+  margin: auto; /* horizontal alignment */
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  background-color: #eff0f2;
+}
+.contacts {
+  display: flex;
+  justify-content: center;
+}
+.contacts ul {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.contacts ul li {
+  margin: 5px 5px;
+}
+.logo {
+  position: relative;
+  top: 7px;
+  width: 25px;
+  height: auto;
+}
+.content {
+  display: flex;
+}
+.content-left {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  border-right: 2px solid #eff0f2;
+}
+.content-left ul {
+  list-style: none;
+}
+.skills {
+  border-bottom: 2px solid #eff0f2;
+  text-align: center;
+}
+.about-me {
+  padding: 5px;
+  border-bottom: 2px solid #eff0f2;
+}
+.content-right {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.experience {
+  border-bottom: 2px solid #eff0f2;
+}
+.work-name {
+  text-decoration: underline;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.work-data {
+  color: gray;
+  text-align: center;
+}
+.courses {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #eff0f2;
+}
+.code {
+  margin: auto;
+  padding-bottom: 10px;
+}
+.footer {
+  background-color: #eff0f2;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.social {
+  display: flex;
+}
+.social a img {
+  width: 50px;
+}
+.line {
+  width: 400px;
+}
